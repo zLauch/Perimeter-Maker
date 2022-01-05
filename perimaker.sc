@@ -20,7 +20,7 @@ _p5()->(
     run('carpet fillUpdates false');
     run('carpet fillLimit 1000000');
 
-    i=-65;
+    i=-61;
     for(range(5,384),
         i=i+1;
 
@@ -31,15 +31,18 @@ _p5()->(
 
     print(' ');
     print('--------------------------');
+    print(' ');
 
     run('setblock '+round(x)+' '+64+' '+round(z)+' diamond_block');
     print('Diamond block has been created. at '+round(x)+' 64 '+round(z)+'.');
+
     print(' ');
     print('--------------------------');
     print(' ');
 
     run('carpet fillUpdates true');
     run('carpet fillLimit 32768');
+
     print('All done. Enjoy your new perimeter!');
     print(' ');
     print('--------------------------');
@@ -74,15 +77,18 @@ _p0()->(
 
     print(' ');
     print('--------------------------');
+    print(' ');
 
     run('setblock '+round(x)+' '+64+' '+round(z)+' diamond_block');
     print('Diamond block has been created. at '+round(x)+' 64 '+round(z)+'.');
+
     print(' ');
     print('--------------------------');
     print(' ');
 
     run('carpet fillUpdates true');
     run('carpet fillLimit 32768');
+
     print('All done. Enjoy your new void perimeter!');
     print(' ');
     print('--------------------------');
