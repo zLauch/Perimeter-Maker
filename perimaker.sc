@@ -49,7 +49,8 @@ _p()->(
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace diamond_ore');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace lapis_ore');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace emerald_ore');
-                run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace deepslate_iron_ore');
+        run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace deepslate_iron_ore');
+        run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace deepslate_iron_ore');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace deepslate_gold_ore');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace deepslate_coal_ore');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace deepslate_redstone_ore');
