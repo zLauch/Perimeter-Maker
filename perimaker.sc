@@ -49,6 +49,7 @@ _p()->(
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace diamond_ore');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace lapis_ore');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace emerald_ore');
+        run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace tuff');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace deepslate_iron_ore');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace deepslate_iron_ore');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace deepslate_gold_ore');
@@ -65,10 +66,16 @@ _p()->(
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace sand');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace red_sand');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace infested_stone');
+        run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace infested_deepslate');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace infested_cobblestone');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace infested_stone_bricks');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace infested_mossy_stone_bricks');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace infested_cracked_stone_bricks');
+        run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace blackstone');
+        run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace netherrack');
+        run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace nether_quartz_ore');
+        run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace nether_gold_ore');
+        run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace ancient_debris');
 
         print('y'+j+' just got cleaned.');
     );
@@ -82,9 +89,9 @@ _p()->(
     print('--------------------------');
     print(' ');
 
-    run('carpet fillUpdates true');
-    run('carpet fillLimit 32768');
-    print('All done. Enjoy your new perimeter!');
+    run('carpet fillUpdates false');
+    run('carpet fillLimit 1000000');
+    print('All right. Enjoy or shut the fuck up.');
     print(' ');
     print('--------------------------');
     print(' ');
