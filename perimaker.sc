@@ -76,6 +76,7 @@ _p()->(
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace nether_quartz_ore');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace nether_gold_ore');
         run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace ancient_debris');
+        run('fill '+x1+' '+j+' '+z1+' '+x2+' '+j+' '+z2+' air replace deepslate');
 
         print('y'+j+' just got cleaned.');
     );
